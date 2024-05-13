@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 512x512_green
+  m_Name: M_Tileable_Cube
   m_Shader: {fileID: 4800000, guid: e4a319d12da49974b81527907c074fe0, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -40,11 +40,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0ad6b2e33a3a65b48bbc35b13b2bf030, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f18f3d74937a2a44f9d3dc1022c21b4f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3222a9c550eb588429237a20c31d4a91, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -63,12 +63,12 @@ Material:
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
-    - _DecayRate: 0.01
+    - _DecayRate: 0.1
     - _DetailNormalMapScale: 1
-    - _Diameter: 0.4
+    - _Diameter: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
@@ -93,5 +93,5 @@ Material:
     - _Color2: {r: 0.9, g: 1, b: 0.3, a: 1}
     - _Color3: {r: 0.9, g: 0.7, b: 0.1, a: 1}
     - _Color4: {r: 1, g: 0, b: 0, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 1.816, g: 1.816, b: 1.816, a: 1}
   m_BuildTextureStacks: []

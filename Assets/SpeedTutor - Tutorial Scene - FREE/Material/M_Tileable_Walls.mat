@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 512x512_green
+  m_Name: M_Tileable_Walls
   m_Shader: {fileID: 4800000, guid: e4a319d12da49974b81527907c074fe0, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -41,10 +41,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 12, y: 12}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f18f3d74937a2a44f9d3dc1022c21b4f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3222a9c550eb588429237a20c31d4a91, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -63,12 +63,12 @@ Material:
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
-    - _DecayRate: 0.01
+    - _DecayRate: 0
     - _DetailNormalMapScale: 1
-    - _Diameter: 0.4
+    - _Diameter: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
@@ -79,7 +79,7 @@ Material:
     - _Range1: 0.25
     - _Range2: 0.5
     - _Range3: 0.75
-    - _Range4: 1
+    - _Range4: 0.4
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
